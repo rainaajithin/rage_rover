@@ -90,7 +90,7 @@ Rage Rover is an RC car engineered to transform basic steering into a full-body 
 
 ### Demo Video
 
-[Watch the demo](https://drive.google.com/file/d/18KS-1wlnEKA20yqXWO2W82PpRjaPfdH_/view?usp=sharing)
+https://drive.google.com/file/d/1_-RelJPF6Bjjy1MpsJ0dUHFtS6635tTT/view?usp=drive_link
 
 ---
 
