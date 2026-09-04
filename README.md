@@ -27,48 +27,36 @@ Rage Rover is an RC car engineered to transform basic steering into a full-body 
 
 
 ## Technical Details
-### Technologies/Components Used
-For Software:
+### Components Used
+
+Software:
 - Languages: C/C++ (Arduino framework)
-- Frsmeworks: ESP32 Arduino Core
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- Frameworks: ESP32 Arduino Core
+- Libraries: BLEDevice (ESP32 BLE Arduino core), Wire.h
+- Tools: Arduino IDE 2.x
+
+Hardware:
+- 2× Seeed Studio XIAO ESP32-S3 (1× Handheld Remote Controller, 1× Car Receiver & Motor Controller)
+- 1× MPU6050 6-Axis I2C Accelerometer/Gyroscope Module
+- 1× 2-Axis Thumb Joystick Module
+- 1× L298N Dual H-Bridge Motor Driver
+- 2x N20 motos
+- 2x3.7V battery pack
 
 ### Implementation
-For Software:
-# Installation
-[commands]
-
 # Run
-[commands]
-
+- Connect the Remote Controller XIAO ESP32-S3 to the PC and flash the remote transmitter sketch.
+- Connect the Car XIAO ESP32-S3 to the PC and flash the car receiver/motor sketch.
+- Power on the car chassis via the onboard battery pack.
+- Power on the remote controller; the BLE connection will establish automatically.
+- Vigorously shake the remote to satisfy the kinetic motion threshold while deflecting the joystick to steer.
+  
 ### Project Documentation
-For Software:
-
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
 For Hardware:
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/9210cfdf-643c-4296-bd3f-4c902c6d2672" />
 
 # Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/6d46c66e-ad93-48a2-92e8-91dc32d80d61" />
 
 # Build Photos
 ![Components](Add photo of your components here)
@@ -82,16 +70,12 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+(https://drive.google.com/file/d/18KS-1wlnEKA20yqXWO2W82PpRjaPfdH_/view?usp=sharing)
 
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Rainaa - Designed overall system architecture; implemented the BLE GATT client/server communication
+- Irene - Developed the remote controller firmware, handling joystick analog input processing and MPU6050 kinetic shake detection.
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
