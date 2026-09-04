@@ -2,35 +2,35 @@
 
 
 
-# [Project Name] 🎯
+# [Project Name]🎯
+Rage Rover
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: DRACULA
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: RAINAA ANNA JITHIN - MODEL ENGINEERING COLLEGE
+- Member 2:IRENE SARA SAM - MODEL ENGINEERING COLLEGE
+
 
 ### Project Description
-[2-3 lines about what your project does]
+RAGE ROVER is a 2-wheeled robotic car driven by an intentionally frustrating remote controller. To steer, users must physically violently shake and tilt the handheld controller past extreme motion thresholds, while navigating inverted joystick inputs where forward moves backward and left turns right.
+
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Driving a traditional RC car is dangerously easy and emotionally empty. You push a joystick forward, the car goes forward, and nobody learns anything about suffering. Modern controls coddle drivers with "intuitive handling," completely depriving humanity of physical exertion, wrist workouts, and healthy, rage-induced sweat. In short: RC cars lack friction, struggle, and chaotic rage. We are fixing a non-existent crisis by making simple driving violently exhausting.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+Rage Rover is an RC car engineered to transform basic steering into a full-body emotional breakdown. To even unlock motor controls, drivers must physically shake and tilt the controller past aggressive MPU6050 motion thresholds, effectively turning driving into a high-stress cardio session. To make matters worse, the joystick controls are completely inverted: forward drives backward, and right turns left. It is useless, deeply counter-intuitive, and guaranteed to ruin friendships within seconds.
+
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
+- Languages: C/C++ (Arduino framework)
+- Frsmeworks: ESP32 Arduino Core
 For Hardware:
 - [List main components]
 - [List specifications]
