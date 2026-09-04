@@ -1,4 +1,4 @@
-<img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/3beec071-b7e2-4163-aa66-a8370054c871" /><img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/05234aeb-1dd2-4e84-ac59-abf98f2f3668" /><img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
 
 
 
@@ -50,7 +50,7 @@ Hardware:
 - Power on the car chassis via the onboard battery pack.
 - Power on the remote controller; the BLE connection will establish automatically.
 - Vigorously shake the remote to satisfy the kinetic motion threshold while deflecting the joystick to steer.
-  
+ 
 ### Project Documentation
 For Hardware:
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/9210cfdf-643c-4296-bd3f-4c902c6d2672" />
@@ -59,14 +59,10 @@ For Hardware:
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/6d46c66e-ad93-48a2-92e8-91dc32d80d61" />
 
 # Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
+Building process:
+<img width="1600" height="900" alt="starting" src="https://github.com/user-attachments/assets/b0945abe-9fed-4374-9528-2cd936f5259e" />
 
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
+Final:
 
 ### Project Demo
 # Video
